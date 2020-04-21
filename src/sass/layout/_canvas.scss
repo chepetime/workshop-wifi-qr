@@ -1,0 +1,21 @@
+$canvas-padding-top-mob: 0;
+$canvas-padding-top-tbl: 0;
+$canvas-padding-top-dsk: 0;
+
+.Canvas {
+  display: block;
+
+  width: 100%;
+
+  min-height: 100vh;
+
+  @include respond-to('initialize') {
+    padding-top: $canvas-padding-top-mob;
+  }
+  @include respond-to('medium') {
+    padding-top: $canvas-padding-top-tbl;
+  }
+  @include respond-to('large') {
+    padding-top: $canvas-padding-top-dsk;
+  }
+}

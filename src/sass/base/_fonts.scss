@@ -1,0 +1,54 @@
+/**
+ *  Fonts
+ */
+
+$font-family-brandon: 'brandon-grotesque', sans-serif;
+$font-size-base: 16px;
+$line-height-base: 1.2;
+
+
+.BrandonGrotesqueRegular {
+  font-family: $font-family-brandon;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.BrandonGrotesqueRegular--italic {
+  font-style: italic;
+}
+
+.BrandonGrotesqueBold {
+  font-family: $font-family-brandon;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.BrandonGrotesqueBold--italic {
+  font-style: italic;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $font-size-base;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-brandon;
+}
+
+p,
+a,
+ul,
+ol,
+li {
+}
